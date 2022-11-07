@@ -86,7 +86,8 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "dev": "webpack-dev-server --progress --colors --inline --hot"
     },
     "conflict": {
         "symfony/symfony": "*"
